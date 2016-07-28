@@ -30,6 +30,12 @@
     UILabel * myLabel = [[UILabel alloc] initWithFrame:self.view.bounds];
     myLabel.attributedText = attrStr;
     [self.view addSubview:myLabel];
+    self.navigationItem.title = @"充值";
+    self.view.backgroundColor = [UIColor whiteColor];
+   NSArray * array = @[@"10",@"20",@"30",@"50",@"100",@"200",@"300",@"500",@"1000"];
+   NSArray * littleArray = @[@"0.01",@"19.96",@"29.94",@"49.90",@"99.80",@"198.00",@"299.40",@"499.00",@"998.00"];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
